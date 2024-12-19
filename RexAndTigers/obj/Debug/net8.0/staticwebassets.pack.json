@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets/RexAndTigers.bundle.scp.css"
     },
     {
+      "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/CheeseCurds.jpg",
+      "PackagePath": "staticwebassets/Images/CheeseCurds.jpg"
+    },
+    {
+      "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/CocaCola.jpeg",
+      "PackagePath": "staticwebassets/Images/CocaCola.jpeg"
+    },
+    {
+      "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/CrocodiliusSteak.jpeg",
+      "PackagePath": "staticwebassets/Images/CrocodiliusSteak.jpeg"
+    },
+    {
+      "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/JerkWings.jpeg",
+      "PackagePath": "staticwebassets/Images/JerkWings.jpeg"
+    },
+    {
+      "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/Manhattan.jpeg",
+      "PackagePath": "staticwebassets/Images/Manhattan.jpeg"
+    },
+    {
       "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
