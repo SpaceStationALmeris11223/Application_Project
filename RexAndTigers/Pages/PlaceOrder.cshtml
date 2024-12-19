@@ -23,7 +23,7 @@
                     <p>@item.Price</p>
                     <img src="@item.Image" alt="@item.Name" height="400" width="400"/>
                     <!--Button Down Below -->
-                    <input type="button" value="Select" onclick="@item.Price">
+                    <input type="button" id="SelectBut" value="Select" onclick="@item.Price">
                     <!--retrieves the items from the Menu-->
                 </div>
             }
@@ -31,14 +31,46 @@
 <!--Menu Items-->
 <h3>Your order</h3>
 <div id="SelectedOptions">
-    <ul id="SelectedOptions"></ul>
+    <ul id="SelectedOptionsList"></ul>
 </div>
+<!--Down Below was my attempt at making a working menu but ran out of time T_T-->
+<script>
+    let SelectedOptions =[];
 
+    function SelectedOption(itemName,itemPrice)
+    {
+        const item ={
+            name: itemName
+            price: itemPrice
+        };
+
+        SelectedOptions.push(item);
+
+        updateSelectedOptions();
+    }
+
+    function updateSelectedOptions(){
+        const list =document.getElementById('SelectedOptionsList');
+
+        list.innerHTML = '';
+
+        SelectedOptions.forEach(item =>{
+            const listItem = document.createElement('li');
+            listItem.textContent = ${item.name} ${item.price};
+            list.appendChild(listItem);
+        });
+    }
+
+
+</script>
+<header>
+    <div class="Webpage-Navigation">
+        <a href="/Index" class="HomePage"> Home Page </a>
+        <a href="/Checkout" class="Checkout-Page"> Checkout</a>
+    </div>    
+
+</header>
         </section>
-        <div class="Webpage-Navigation">
-            <a href="/Index" class="HomePage"> Home Page </a>
-            <a href="/Checkout" class="Checkout-Page"> Checkout</a>
 
-        </div>    
     </main>
 </body>
