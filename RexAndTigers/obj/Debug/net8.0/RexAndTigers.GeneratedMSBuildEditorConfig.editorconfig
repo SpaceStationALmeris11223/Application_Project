@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/Application_Project/RexAndTigers/Pages/PlaceOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGxhY2VPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/Application_Project/RexAndTigers/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
