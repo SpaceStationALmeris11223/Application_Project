@@ -1,0 +1,45 @@
+﻿@page
+@model MyApp.Namespace.MenuModel
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name = "viewport" content="width=device-width,charset inital-scale=1.0">
+    <title>@ViewData["Title"]</title>
+</head>    
+
+<body>
+    <header>
+        <p>The`menu will be limited for proof of concept. The full menu and all of it'inital-scale options will be added once the final version is out.</p>
+    </header>
+
+    <main>
+        <section class="Our-Menu-Options">
+            <h1>Here are our menu options </h1>
+            <div class="Holds-Menu">
+                @foreach (var item in Model.MenuOptions)
+                {<!--for each will keep looping until it retrieves all items from the menu--->
+                    <div class="MenuOption">
+                        <h2>@item.Name</h2>
+                        <p>@item.Description</p>
+                        <p>@item.Price</p>
+                        <img src="@item.Image" alt="@item.Name"/>
+                        <!--retrieves the items from the Menu-->
+                    </div>
+                }
+
+
+            </div>
+        </section>
+        <div class="Webpage-Navigation">
+            <a href="/Index" class="HomePage"> Home Page </a>
+            <a href="/Checkout" class="Checkout-Page"> Checkout</a>
+
+        </div>
+    </main>
+</body>
+</html>
