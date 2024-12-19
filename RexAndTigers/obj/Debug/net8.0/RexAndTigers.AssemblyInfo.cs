@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RexAndTigers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a1901c834bbbc8299cb42f2c7f2c0073a5e0e4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+012f1858f4747ca216b3ae739041c6751251f5f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RexAndTigers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RexAndTigers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

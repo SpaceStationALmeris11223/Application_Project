@@ -45,14 +45,14 @@ namespace MyApp.Namespace
                     Name = "CocaCola",
                     Description = "CocaCola from our foutain",
                     Price = "1.50",
-                    Image = "/School conver/Assig/CocaCola.jpeg",
+                    Image = "/Images/CocaCola.jpeg",
                 },
                 new MenuOption
                 {
                     Name = "ManhattanCocktail.jpeg",
                     Description = "The Manhattan is a smooth, bold blend of whiskey, sweet vermouth, and bitters, delivering a timeless, sophisticated flavor that makes every sip feel like a celebration.",
                     Price = "14.00",
-                    Image = "/Desktops/ManhattanCocktail.jpg",
+                    Image = "/Images/ManhattanCocktail.jpg",
                 }
             };
         }
