@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/Images/Manhattan.jpeg"
     },
     {
+      "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/RexandTigers.jpeg",
+      "PackagePath": "staticwebassets/Images/RexandTigers.jpeg"
+    },
+    {
       "Id": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/TigerBurger.jpg",
       "PackagePath": "staticwebassets/Images/TigerBurger.jpg"
     },

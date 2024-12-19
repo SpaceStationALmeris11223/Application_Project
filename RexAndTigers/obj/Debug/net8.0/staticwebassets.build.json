@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CSUXr9yf0wiTnAIC54wqV2vlCoXxyO4sRwYIe+nqXAc=",
+  "Hash": "gGLtpBrEcbKW9BrjtNRoGQcJH3oBiPlZs45p77SY14o=",
   "Source": "RexAndTigers",
   "BasePath": "_content/RexAndTigers",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/Manhattan.jpeg"
+    },
+    {
+      "Identity": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/RexandTigers.jpeg",
+      "SourceId": "RexAndTigers",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/Application_Project/RexAndTigers/wwwroot/",
+      "BasePath": "_content/RexAndTigers",
+      "RelativePath": "Images/RexandTigers.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/RexandTigers.jpeg"
     },
     {
       "Identity": "/workspaces/Application_Project/RexAndTigers/wwwroot/Images/TigerBurger.jpg",
