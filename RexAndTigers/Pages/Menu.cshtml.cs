@@ -31,7 +31,7 @@ namespace MyApp.Namespace
                     Name = "Cheese Curds",
                     Description = "Cheese curds made with wisconsin cheese, can be beer battered upon request.",
                     Price = "7.00",
-                    Image = "/Images/CheeseCurds.jpeg",
+                    Image = "/Images/CheeseCurds.jpg",
                 },
                 new MenuOption
                 {
@@ -54,6 +54,7 @@ namespace MyApp.Namespace
                     Price = "14.00",
                     Image = "/Images/Manhattan.jpeg",
                 }
+
             };
         }
      public class MenuOption
@@ -63,5 +64,6 @@ namespace MyApp.Namespace
         public string Price {get; set;}
         public string Image {get; set;}
         }
+        
     }
 }

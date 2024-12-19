@@ -14,6 +14,31 @@
  
 <body>
     <main>
-    <button class></button>    
+        <div class="Holds-Menu">
+             @foreach (var item in Model.MenuOptions)
+            {<!--for each will keep looping until it retrieves all items from the menu--->
+                <div class="MenuOption">
+                    <h2>@item.Name</h2>
+                    <p>@item.Description</p>
+                    <p>@item.Price</p>
+                    <img src="@item.Image" alt="@item.Name" height="400" width="400"/>
+                    <!--Button Down Below -->
+                    <input type="button" value="Select" onclick="@item.Price">
+                    <!--retrieves the items from the Menu-->
+                </div>
+            }
+        </div>
+<!--Menu Items-->
+<h3>Your order</h3>
+<div id="SelectedOptions">
+    <ul id="SelectedOptions"></ul>
+</div>
+
+        </section>
+        <div class="Webpage-Navigation">
+            <a href="/Index" class="HomePage"> Home Page </a>
+            <a href="/Checkout" class="Checkout-Page"> Checkout</a>
+
+        </div>    
     </main>
 </body>
