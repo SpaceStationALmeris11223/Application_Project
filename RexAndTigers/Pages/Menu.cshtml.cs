@@ -45,7 +45,7 @@ namespace MyApp.Namespace
                     Name = "CocaCola",
                     Description = "CocaCola from our foutain",
                     Price = "1.50",
-                    Image = "/Desktop/CocaCola.jpeg",
+                    Image = "/School conver/Assig/CocaCola.jpeg",
                 },
                 new MenuOption
                 {
